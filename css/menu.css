@@ -117,7 +117,7 @@ input {
 
 
 /* =========================================================
-   HERO — UPDATED
+   HERO
 ========================================================= */
 
 .menu-hero {
@@ -348,7 +348,7 @@ input {
 
 
 /* =========================================================
-   HERO IMAGE — NEW
+   HERO IMAGE
 ========================================================= */
 
 .menu-hero-image {
@@ -1216,6 +1216,25 @@ input {
         var(--tcp-muted);
 
     font-size: 13px;
+
+}
+
+
+/* =========================================================
+   NEW FOOD GRIDS
+========================================================= */
+
+.new-food-grid {
+
+    margin-top: 25px;
+
+}
+
+
+.naan-roll-grid,
+.side-food-grid {
+
+    margin-bottom: 30px;
 
 }
 
@@ -2154,6 +2173,83 @@ input {
 
 
 /* =========================================================
+   NO RESULTS
+========================================================= */
+
+.menu-no-results {
+
+    padding:
+        55px 20px;
+
+    margin:
+        20px 0 60px;
+
+    text-align: center;
+
+    border:
+        1px dashed var(--tcp-border);
+
+    border-radius:
+        var(--tcp-radius);
+
+    background:
+        rgba(255,255,255,.65);
+
+}
+
+
+.menu-no-results-icon {
+
+    color:
+        var(--tcp-orange);
+
+    font-size: 30px;
+
+}
+
+
+.menu-no-results h3 {
+
+    margin-top: 8px;
+
+    color:
+        var(--tcp-brown);
+
+    font-family:
+        "Oswald",
+        sans-serif;
+
+    font-size: 28px;
+
+    text-transform: uppercase;
+
+}
+
+
+.menu-no-results p {
+
+    margin-top: 6px;
+
+    color:
+        var(--tcp-muted);
+
+    font-size: 13px;
+
+}
+
+
+/* =========================================================
+   FILTER HIDDEN
+========================================================= */
+
+.menu-hidden {
+
+    display: none !important;
+
+}
+
+
+/* =========================================================
    ENDING
 ========================================================= */
 
@@ -2234,24 +2330,10 @@ input {
 
 
 /* =========================================================
-   FILTER HIDDEN
-========================================================= */
-
-.menu-hidden {
-
-    display: none !important;
-
-}
-
-
-/* =========================================================
    TABLET
 ========================================================= */
 
 @media (max-width: 950px) {
-
-
-    /* HERO */
 
     .menu-hero-content {
 
@@ -2342,8 +2424,6 @@ input {
     }
 
 
-    /* EXISTING TABLET */
-
     .featured-food-card {
 
         grid-template-columns:
@@ -2426,7 +2506,6 @@ input {
 
 @media (max-width: 650px) {
 
-
     .container,
     .menu-hero-content {
 
@@ -2435,8 +2514,6 @@ input {
 
     }
 
-
-    /* HERO */
 
     .menu-hero-content {
 
@@ -2514,8 +2591,6 @@ input {
 
     }
 
-
-    /* INTRO */
 
     .menu-intro {
 
@@ -2937,7 +3012,6 @@ input {
 ========================================================= */
 
 @media (max-width: 390px) {
-
 
     .menu-hero h1 {
 
